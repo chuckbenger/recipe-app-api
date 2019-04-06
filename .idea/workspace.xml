@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b42929-aa01-446b-93f3-53963841d38e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/recipe-app-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipe-app-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +23,7 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
           <entry key="txt" value="2" />
           <entry key="yml" value="2" />
         </counts>
@@ -34,7 +32,7 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -42,7 +40,7 @@
         <counts>
           <entry key="Dockerfile" value="246" />
           <entry key="flake8" value="70" />
-          <entry key="py" value="2384" />
+          <entry key="py" value="3983" />
           <entry key="txt" value="80" />
           <entry key="yml" value="257" />
         </counts>
@@ -51,7 +49,7 @@
         <counts>
           <entry key="Dockerfile" value="246" />
           <entry key="PLAIN_TEXT" value="150" />
-          <entry key="Python" value="2384" />
+          <entry key="Python" value="3983" />
           <entry key="YAML" value="257" />
         </counts>
       </usages-collector>
@@ -59,15 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/core/tests/test_models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="711">
@@ -124,6 +113,20 @@
                 <marker date="1554516456933" expanded="true" signature="109:110" ph="..." />
                 <marker date="1554516456933" expanded="true" signature="109:111" ph="..." />
                 <marker date="1554516456933" expanded="true" signature="109:115" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/core/tests/tests_admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <marker date="1554517533037" expanded="true" signature="153:154" ph="..." />
+                <marker date="1554517533037" expanded="true" signature="153:159" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,11 +147,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/core/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="672">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1554517754193" expanded="true" signature="237:242" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,8 +185,9 @@
         <option value="$PROJECT_DIR$/app/core/tests/__init__.py" />
         <option value="$PROJECT_DIR$/app/app/settings.py" />
         <option value="$PROJECT_DIR$/app/core/models.py" />
-        <option value="$PROJECT_DIR$/app/core/admin.py" />
         <option value="$PROJECT_DIR$/app/core/tests/test_models.py" />
+        <option value="$PROJECT_DIR$/app/core/tests/tests_admin.py" />
+        <option value="$PROJECT_DIR$/app/core/admin.py" />
       </list>
     </option>
   </component>
@@ -406,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/core/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/core/tests/test_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -422,6 +423,29 @@
             <marker date="1554516456933" expanded="true" signature="109:110" ph="..." />
             <marker date="1554516456933" expanded="true" signature="109:111" ph="..." />
             <marker date="1554516456933" expanded="true" signature="109:115" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/tests/tests_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1554517533037" expanded="true" signature="153:154" ph="..." />
+            <marker date="1554517533037" expanded="true" signature="153:159" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1554517754193" expanded="true" signature="237:242" ph="..." />
           </folding>
         </state>
       </provider>
